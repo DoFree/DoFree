@@ -11,4 +11,5 @@ public :
 
 	sf::Image* IDToImage(std::string ID);
 	void CreateAndRange(std::string Chemin, std::string Clef);
+	~ImageManager();
 };
